@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Ing. Jose Luis Gonzalez Montiel">
+		<meta name="description" content="Dscripcion de la pagina web">
+		<meta name="keywords" content="HTML5, CSS3, JavaScript">
+	</head>
+	<body>
+		<h1>Mi primer titulo</h1>
+		<p id="demo">Mi primer parrafo</p>
+		<button onclick="miFuncion()">Prueba</button>
+		<script>
+			function miFuncion(){
+				//Sustituye el párrafo por el famoso Hola Mundo!.
+				document.getElementById("demo").innerHTML = "Hola Mundo desde HTML5 y Javascript";
+			}
+		</script>
+	</body>
+</html>
